@@ -4,7 +4,7 @@ Internship project at the Institute of Computational Cell Biology - Heinrich Hei
 
 
 
-This repository contains scripts and notebooks for predicting the Michaelis constant (Km) of enzyme-substrate pairs by combining enzyme sequence embeddings with substrate molecular embeddings.
+This repository contains scripts and notebooks for predicting the Michaelis constant (Km) of enzyme–substrate pairs for wild-type enzymes. The main method consists of combining different input features into a single concatenated vector, integrating enzyme sequence and/or substrate molecular structure representations. These embeddings are then used as input to gradient boosting models, trained on HPC.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ This repository contains scripts and notebooks for predicting the Michaelis cons
 - **Software:**
   - InterProScan (used for protein domain annotation, requires a Linux environment)
 
-## Repository Structure & Usage
+## Repository Structure 
 
 - **Initial Analysis**
   - `Initial analysis/preprocessing.ipynb`  
